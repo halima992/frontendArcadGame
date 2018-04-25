@@ -28,9 +28,7 @@ the project from Udacity for raising our skills up on HTML ,CSS and javascript b
 
 | Criteria              | Specifications    |
 | --------------------- | ----------------- |
-| acrade game logic     | - player can't move of screen 
-- bugs cross the screen
-- player-bugs collision reset the place of player  |
+| acrade game logic     |player can't move of screen , bugs cross the screen and player-bugs collision reset the place of player|
 
 ### Object-Oriented Code
 
