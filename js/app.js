@@ -1,6 +1,11 @@
-
+/**
+* @description Represented the enemies , thier position and what happend if there collion 
+* @constructor
+* @param {number} x - The starter position of the enemy of x-axis on canvas
+* @param {number} y - The starter position of the enemy of y-axis on canvas
+*/
 var Enemy = function(x, y) {
-
+    thix.z=0;
     this.x = x;
     this.y = y;
     this.sprite = 'images/enemy-bug.png';
