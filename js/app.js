@@ -8,6 +8,7 @@ var Enemy = function(x, y) {
     this.x = x;
     this.y = y;
     this.sprite = 'images/enemy-bug.png';
+
 };
 // Update the enemy's position to repeat the out of enemies always  
 Enemy.prototype.update = function(dt) {
@@ -18,8 +19,11 @@ Enemy.prototype.update = function(dt) {
         this.x = 0;
         this.y = 60 + Math.floor(Math.random() * 184);
     }
-
-    if (player.x < this.x + 65 && player.y < this.y + 43 && player.x > this.x - 27 && player.y > this.y - 56) {
+	this.up    = this.y - 56;
+	this.down  = this.y + 43;
+	this.left  = this.x - 27;
+	this.right = this.x + 65;
+    if (player.x < this.right && player.y < this.down && player.x > this.left && player.y > this.up ) {
         player.x = 200;
         player.y = 400;
         numOfLose++;
