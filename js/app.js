@@ -48,7 +48,7 @@ class Player {
     constructor(x, y) {
         this.x = x;
         this.y = y;
-        this.sprite = 'images/char-cat.png';
+        this.sprite = 'images/char-cat-girl.png';
 
     }
 	
@@ -72,9 +72,8 @@ class Player {
 	// Draw the player on the screen,add some style when collion happend 
     render() {
         if (collitionHappend) {
-            ctx.shadowColor = 'red';
-            ctx.shadowBlur = 200;
-            collitionHappend = false;
+			setTimeout(changecolorforCollition,100)
+             
         }
         ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
 
@@ -107,6 +106,16 @@ for (let i = 0; i < 4; i++) {
     enemy = new Enemy(0, 60 + Math.floor(Math.random() * 180))
     allEnemies.push(enemy);
 }
+/**
+* @description for change the color when player lose
+* @param no
+*/
+function changecolorforCollition(){
+	ctx.shadowColor = 'red';
+     ctx.shadowBlur = 200;
+     collitionHappend = false;
+}
+
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
 document.addEventListener('keyup', function(e) {
