@@ -47,7 +47,7 @@ the project from Udacity for raising our skills up on HTML ,CSS and javascript b
 
 
 ## Installing From Source
- - [Clone](https://github.com/halima992/projectMemoryGame) the Repository
+ - [Clone](https://github.com/halima992/frontendArcadGame) the Repository 
  - load `index.html` in your browser
  - play the game
 
