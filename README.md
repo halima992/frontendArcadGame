@@ -4,6 +4,7 @@
 
 * [Acrade game](#acrade-game)
 * [Installing From Source](#installing-from-source)
+* [Project Requirement Specifications](#project-requirement-specifications)
 * [Author](#author)
 * [Contributing](#contributing)
 
