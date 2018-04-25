@@ -34,9 +34,9 @@ the project from Udacity for raising our skills up on HTML ,CSS and javascript b
 
 ### Object-Oriented Code
 
-| Criteria              | Specifications    |
-| --------------------- | ----------------- |
-| Object oriented code  | Game objects (player and enemies) are implemented using JavaScript object-oriented programming features.|
+| Criteria                | Specifications    |
+| ------------------------| ----------------- |
+| Object oriented code    | Game objects (player and enemies) are implemented using JavaScript object-oriented programming features.|
 
 
 ### Documentation
